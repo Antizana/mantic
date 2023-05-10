@@ -1,0 +1,19 @@
+{
+  "name": "passive-measurement-survey-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "npm i && npm update xxxxx-lib && zip -r0 passive-measurement-survey-downloader.zip ./ -x ./sample_config.json ./config.json ./package-lock.json *.git* *.zip"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.682.0",
+    "axios": "^0.18.0",
+    "pg": "^7.18.2",
+    "underscore": "^1.10.2",
+    "parse-database-url": "^0.3.0"
+  }
+}
